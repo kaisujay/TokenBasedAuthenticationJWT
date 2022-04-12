@@ -12,7 +12,7 @@ namespace JETWebMVC.Controllers
 {
     public class HomeController : Controller
     {
-        private static string WebAPIURL = "http://localhost:4051/";
+        private static string WebAPIURL = "http://localhost:4074/";
         // GET: Home
         public async Task<ActionResult> Index()
         {

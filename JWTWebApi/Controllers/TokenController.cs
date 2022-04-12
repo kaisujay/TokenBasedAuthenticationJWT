@@ -22,5 +22,12 @@ namespace JWTWebApi.Controllers
                 return Unauthorized();
             }
         }
+
+        [HttpGet]
+        [CustomAuthenticationFilter]
+        public IHttpActionResult GetEmployee()
+        {
+            return Ok("Successfull");
+        }
     }
 }
